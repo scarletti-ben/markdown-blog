@@ -37,7 +37,7 @@ Before starting, ensure that you have `git` and `python` installed on your syste
     - Use `python main.py` if `main.py` is not part of a package
 
 ### Example
-![alt text](../assets/gif/gif001-python-clone.gif)
+![alt text](/assets/gif/gif001-python-clone.gif)
 
 > [!NOTE]
 > By default, if you are not working in a virtual environment, `pip` installs packages to the global `site-packages` folder
