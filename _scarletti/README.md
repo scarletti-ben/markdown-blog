@@ -28,3 +28,6 @@ Categories are folders, eg. Web Development / JavaScript is two folders deep, no
 #       \-\-disable-external \
 #       \-\-ignore-urls "/^http:\/\/127.0.0.1/,/^http:\/\/0.0.0.0/,/^http:\/\/localhost/"
 ```
+
+# Name Clashes
+Due to the way that the pages are made, name clashes can exist as the date is omitted from the filename, eg. `1995-12-22-test.md` and `2025-12-22-test.md` both point to the same `URL` which is `markdown-blog/posts/test`
