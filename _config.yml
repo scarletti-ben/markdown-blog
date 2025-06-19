@@ -208,6 +208,7 @@ compress_html:
   ignore:
     envs: [development]
 
+# Note: _scarletti has been added here even though Jekyll should ignore it by default
 exclude:
   - "*.gem"
   - "*.gemspec"
@@ -218,6 +219,7 @@ exclude:
   - purgecss.js
   - "*.config.js"
   - "package*.json"
+  - _scarletti/
 
 jekyll-archives:
   enabled: [categories, tags]
