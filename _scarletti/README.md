@@ -7,3 +7,11 @@ exclude:
   - ...
   - _scarletti/
 ```
+
+# PWA
+Enabling `PWA` also enables the "site content changed, update site" thing as the service worker checks file changes
+
+Update the About
+
+# Categories
+Categories are folders, eg. Web Development / JavaScript is two folders deep, not in both categores - citation needed
