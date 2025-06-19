@@ -15,3 +15,16 @@ Update the About
 
 # Categories
 Categories are folders, eg. Web Development / JavaScript is two folders deep, not in both categores - citation needed
+
+
+# htmlproofer
+`_pages-deploy.yaml`
+```yaml
+# POSTIT - Here htmlproofer is used to check if internal links are valid
+# Currently disabled
+# - name: Test site
+#   run: |
+#     bundle exec htmlproofer _site \
+#       \-\-disable-external \
+#       \-\-ignore-urls "/^http:\/\/127.0.0.1/,/^http:\/\/0.0.0.0/,/^http:\/\/localhost/"
+```
