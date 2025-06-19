@@ -12,6 +12,7 @@ tags: [
 author: "Ben Scarletti"
 ---
 
+```text
 HTML
 
 Tutorial Source:
@@ -206,3 +207,4 @@ The HTML style attribute has the following syntax
 <tagname style="property:value;">
 
 The property is a CSS property 
+```
