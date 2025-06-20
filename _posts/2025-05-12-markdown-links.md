@@ -22,13 +22,13 @@ The syntax for a local file link is `[text](relative path)` using `./` for the l
 - `[Node](/_posts/2025-05-12-node.md)` shows [Node](/_posts/2025-05-12-node.md)
 
 # Jekyll Links
-The syntax for linking to another post involves omitting the extension for the filename, as it will not be a `markdown` file when the site is generated
+The syntax for linking to another post involves omitting the extension for the filename, as it will not be a `markdown` file when the site is generated, you also omit the date.
 
-- [Node](/2025-05-12-node)
-- [Node](../2025-05-12-node)
-- [Node](./2025-05-12-node)
-- [Node](2025-05-12-node)
-- [Node](./posts/2025-05-12-node)
-- [Node](/posts/2025-05-12-node)
-- [Node](posts/2025-05-12-node)
+- [Node](/node)
+- [Node](../node)
+- [Node](./node)
+- [Node](node)
+- [Node](./posts/node)
+- [Node](/posts/node)
+- [Node](posts/node)
 - [Node]({% post_url 2025-05-12-node %})
