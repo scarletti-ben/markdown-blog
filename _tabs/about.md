@@ -49,3 +49,4 @@ Take a `512x512` image and go to [`Favicon Generator`](https://realfavicongenera
 - Mention the `PWA` service worker
 - Remove the `author` section from front matter and it will use the site wide name, otherwise
 - Does not seem to respect `last-modifed` or `updated` fields, and uses file commit / changes to generate `updated` date for the site **USE** `last_modified_at` as it works to overrride
+- Added `markdown.code-snippets` (and associated `.gitignore` exception)
