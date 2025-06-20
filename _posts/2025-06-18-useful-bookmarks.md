@@ -9,7 +9,6 @@ categories: [
 tags: [
   miscellaneous, web dev, ai, bookmarks, websites, tools, useful, reminder
 ]
-author: "Ben Scarletti"
 ---
 
 # Useful Bookmarks

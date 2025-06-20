@@ -9,7 +9,6 @@ categories: [
 tags: [
   pc setup
 ]
-author: "Ben Scarletti"
 ---
 
 # Before Beginning

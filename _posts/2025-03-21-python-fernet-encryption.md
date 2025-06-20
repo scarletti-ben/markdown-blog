@@ -9,7 +9,6 @@ categories: [
 tags: [
   dev, python, encryption, cryptography, decryption fernet, aes, aes-128, aes-256, pbkdf2, key derivation, password based key derivation, encode, decode, bytes, bytestring
 ]
-author: "Ben Scarletti"
 ---
 
 # Symmetric Data Encryption

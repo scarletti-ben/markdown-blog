@@ -9,7 +9,6 @@ categories: [
 tags: [
   coding, dev, python, asyncio, async, asynchronous
 ]
-author: "Ben Scarletti"
 ---
 
 -------------------------------------------------------------------------------------------------------------------------------

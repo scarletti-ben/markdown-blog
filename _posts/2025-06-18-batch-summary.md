@@ -9,7 +9,6 @@ categories: [
 tags: [
   coding, dev, batch, microsoft windows, .bat, cheat sheet, cmd, command line, cli
 ]
-author: "Ben Scarletti"
 ---
 
 # Overview

@@ -9,7 +9,6 @@ categories: [
 tags: [
   dump
 ]
-author: "Ben Scarletti"
 ---
 ## JavaScript Reference Guide
 

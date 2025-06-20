@@ -9,7 +9,6 @@ categories: [
 tags: [
   dev, python, python packages, pypi, egg, egg-link, imports
 ]
-author: "Ben Scarletti"
 ---
 
 # Custom Python Packages

@@ -9,7 +9,6 @@ categories: [
 tags: [
   notes
 ]
-author: "Ben Scarletti"
 ---
 
 # Miscellaneous

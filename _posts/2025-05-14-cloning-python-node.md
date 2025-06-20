@@ -9,7 +9,6 @@ categories: [
 tags: [
   webdev, github, git, clone, cloning, python, pip, pypi, dependencies, javascript, node, node.js, npm, node package manager, node version manager, nvm, command prompt, command-line interface, cli
 ]
-author: "Ben Scarletti"
 ---
 
 # Installing Python Repository and Dependencies (Windows)

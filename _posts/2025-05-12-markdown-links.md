@@ -9,7 +9,6 @@ categories: [
 tags: [
   markdown
 ]
-author: "Ben Scarletti"
 ---
 
 # Mardown Links
