@@ -31,3 +31,6 @@ Categories are folders, eg. Web Development / JavaScript is two folders deep, no
 
 # Name Clashes
 Due to the way that the pages are made, name clashes can exist as the date is omitted from the filename, eg. `1995-12-22-test.md` and `2025-12-22-test.md` both point to the same `URL` which is `markdown-blog/posts/test`
+
+# Miscellaneous
+- Adding a description to the yaml will stop it showing an excerpt, so you can add if you want to manually control the description, but can also omit if you want
