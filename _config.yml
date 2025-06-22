@@ -24,18 +24,19 @@ tagline: Blog site for GitHub pages using the Chirpy Jekyll theme, reading from 
 description: >- 
   Blog site for GitHub pages using the Chirpy Jekyll theme, reading from markdown files
 
-# POSTIT - Essential
+# POSTIT - Essential changes made
 # Fill in the protocol & hostname for your site.
 # E.g. 'https://username.github.io', note that it does not end with a '/'.
 url: "https://scarletti-ben.github.io"
 
-# POSTIT - Essential
+# POSTIT - Essential changes made
 github:
   username: scarletti-ben # change to your GitHub username
 
 twitter:
   username: twitter_username # change to your Twitter username
 
+# POSTIT - Essential changes made
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
@@ -101,6 +102,7 @@ theme_mode: # [light | dark]
 # e.g. 'https://cdn.com'
 cdn:
 
+# POSTIT - Ensure avatar.png exists
 # the avatar on sidebar, support local or CORS resources
 avatar: /assets/img/avatar.png
 
@@ -153,7 +155,7 @@ pwa:
 
 paginate: 10
 
-# POSTIT - Essential
+# POSTIT - Essential changes made
 # The base URL of your site, from GitHub pages / Repository name
 baseurl: "/markdown-blog"
 
@@ -221,6 +223,7 @@ exclude:
   - purgecss.js
   - "*.config.js"
   - "package*.json"
+  # POSTIT - Added directory for files that will not be built into the site
   - _scarletti/
 
 jekyll-archives:
