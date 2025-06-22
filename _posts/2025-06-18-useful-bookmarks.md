@@ -177,9 +177,9 @@ Below is a list of URLs to useful sites for `HTML` / `CSS` / `JavaScript` develo
 - [Web Development Resources](https://github.com/bradtraversy/design-resources-for-developers?tab=readme-ov-file#html--css-templates)
   - A `GitHub` `README` guide with many resources helpful for web development
 - [Web Dev Learning Site](https://html-css-js.com)
-  - Helpful cheat sheet for `HTML`: (https://htmlcheatsheet.com/)
-  - Helpful cheat sheet for `CSS`: (https://htmlcheatsheet.com/css)
-  - Helpful cheat sheet for `HTML`: (https://htmlcheatsheet.com/js)
+  - Helpful cheat sheet for `HTML`: https://htmlcheatsheet.com/
+  - Helpful cheat sheet for `CSS`: https://htmlcheatsheet.com/css/
+  - Helpful cheat sheet for `HTML`: https://htmlcheatsheet.com/js/
 - [Pyodide Documentation](https://pyodide.org/en/stable)
   - Documentation for `Pyodide` which allows running `Python` in browser via `WebAssembly` (`WASM`)
 - [YouTube Playlist History](https://plist.abdel-alim.com)
