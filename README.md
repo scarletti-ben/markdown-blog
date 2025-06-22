@@ -47,7 +47,7 @@ This file defines a `GitHub Actions` "workflow" that builds the site and deploys
 ```yaml
 jobs:
   build:
-    runs-on: `ubuntu-latest`
+    runs-on: ubuntu-latest
     steps:
       ...
   deploy:
