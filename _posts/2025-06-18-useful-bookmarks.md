@@ -237,7 +237,7 @@ Below is a list of URLs to useful sites for `HTML` / `CSS` / `JavaScript` develo
   - Simple implementation of a deck of cards in `HTML` / `CSS` / `JavaScript`
   - Also has a multiplayer [here](https://deck.of.cards/)
 - [Google Chrome Bookmark Separator](https://separator.mayastudios.com/?vert#bookmark-differentiator--df2ecc08-cc09-4fae-897f-0bd8e797e49d)
-  - Site with a "|" as the icon to serve as a bookmark toolbar separator
+  - Site with a `|` as the icon to serve as a bookmark toolbar separator
 - [Cursor AI Code Editor](https://www.cursor.com/en)
   - `IDE` with built in `AI`
   - Untested
