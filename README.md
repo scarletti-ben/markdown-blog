@@ -55,10 +55,10 @@ jobs:
 ```
 
 ### `_config.yml`
-This is the main config file for `Jekyll`. It sets global values used by the site and theme, such as the title, description, base URL, author info, and plugin settings. It’s required for your site to build properly.
+This is the main configuration file for `Jekyll`. It sets global values used by the site and theme, such as the title, description, base URL, author info, and plugin settings. It’s required for your site to build properly.
 
 ### `_posts`
-Contains all the `Mardown` files with [front matter](#front-matter). These will be read by [`Jekyll` ](#jekyll) to build the site, and influence the search function.
+Contains all the `Mardown` files with [front matter](#front-matter). These will be read by [`Jekyll`](#jekyll) to build the site, and influence the search function.
 
 ### `_tabs`
 Contains template `YAML` for the tabs that will appear on the left hand side of the page. Currently I feel it is best to leave them as they are. One exception is the tab `about.md` which is likely to contain site information in the same sort of format as can be found in this `README`.
