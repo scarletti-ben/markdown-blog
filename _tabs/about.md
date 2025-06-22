@@ -4,7 +4,7 @@ icon: fas fa-info-circle
 order: 4
 ---
 
-> Add Markdown syntax content to file `_tabs/about.md`{: .filepath } and it will show up on this page. Currently this page is copied from `README.md`, copied on `2025-06-22`.
+> Add Markdown syntax content to `_tabs/about.md`{: .filepath } and it will show up on this page. This page is currently a copy of `README.md`, made on `2025-06-22`.
 {: .prompt-tip }
 
 # Markdown Blog
@@ -56,7 +56,7 @@ This file defines a `GitHub Actions` "workflow" that builds the site and deploys
 ```yaml
 jobs:
   build:
-    runs-on: `ubuntu-latest`
+    runs-on: ubuntu-latest
     steps:
       ...
   deploy:
