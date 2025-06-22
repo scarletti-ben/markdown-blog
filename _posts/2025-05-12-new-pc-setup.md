@@ -1,7 +1,7 @@
 ---
 title: "Setting Up a New PC"
 date: "2025-05-12"
-date-modified: "2025-05-12"
+# last_modified_at: "2025-05-12"
 description: "Information on setting up a new PC"
 categories: [
   miscellaneous

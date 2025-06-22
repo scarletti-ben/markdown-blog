@@ -1,7 +1,7 @@
 ---
 title: "Windows Batch File Syntax / Summary / Cheat Sheet"
 date: "2025-06-18"
-date-modified: "2025-06-18"
+# last_modified_at: "2025-06-18"
 description: "Windows Batch File Syntax / Summary / Cheat Sheet"
 categories: [
   coding

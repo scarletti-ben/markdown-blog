@@ -1,7 +1,7 @@
 ---
 title: "Learnings.md Dump"
 date: "2025-02-12"
-date-modified: "2025-02-12"
+# last_modified_at: "2025-02-12"
 description: "Dump of learnings.md from the deleted notes repository"
 categories: [
   miscellaneous

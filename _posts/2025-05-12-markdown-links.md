@@ -1,7 +1,7 @@
 ---
 title: "Markdown Links Syntax"
 date: "2025-05-12"
-date-modified: "2025-05-12"
+# last_modified_at: "2025-05-12"
 description: "Syntax for local / web links in markdown"
 categories: [
   coding

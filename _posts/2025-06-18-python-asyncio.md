@@ -1,7 +1,7 @@
 ---
 title: "Python Asyncio Notes"
 date: "2025-06-18"
-date-modified: "2025-06-18"
+# last_modified_at: "2025-06-18"
 description: "Python Asyncio Notes from a while ago"
 categories: [
   coding

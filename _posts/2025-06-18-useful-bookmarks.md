@@ -1,7 +1,7 @@
 ---
 title: "List of Useful Bookmarks"
 date: "2025-06-18"
-date-modified: "2025-06-18"
+# last_modified_at: "2025-06-18"
 description: "List of useful bookmarks, mostly for web development. Previously from html-demos repository"
 categories: [
   miscellaneous

@@ -1,8 +1,8 @@
 ---
 title: "HTML Notes Dump"
 date: "2023-10-31"
-date-modified: "2025-06-18"
-description: "Dump of an old html-notes.txt"
+# last_modified_at: "2025-06-18"
+description: "Dump of html-notes.txt"
 categories: [
   miscellaneous
 ]
