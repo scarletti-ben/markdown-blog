@@ -23,6 +23,7 @@ The syntax for a local file link is `[text](relative path)` using `./` for the l
 # Jekyll Links
 The syntax for linking to another post involves omitting the extension for the filename, as it will not be a `markdown` file when the site is generated, you also omit the date.
 
+The links below don't seem to form working links on the built site
 - [Node](/node)
 - [Node](../node)
 - [Node](./node)
@@ -30,4 +31,6 @@ The syntax for linking to another post involves omitting the extension for the f
 - [Node](./posts/node)
 - [Node](/posts/node)
 - [Node](posts/node)
+
+This syntax, however, seems to work
 - [Node]({% post_url 2025-05-12-node %})

@@ -2,12 +2,12 @@
 title: "Custom Python Packages"
 date: "2025-01-10"
 # last_modified_at: "2025-01-10"
-# last_modified_at: "2025-01-10"
+# description: ""
 categories: [
   coding
 ]
 tags: [
-  dev, python, python packages, pypi, egg, egg-link, imports
+  unfinished, dev, python, python packages, pypi, egg, egg-link, imports
 ]
 ---
 

@@ -71,6 +71,7 @@ tags: [
     - git config --global user.name "Forename Surname"
 - NVM for NPM / Node
 - VLC Player
+	- Install dark mode for VLC
 - Winaero Tweaker
 - WinRAR
 - ffmpeg

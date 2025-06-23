@@ -7,7 +7,7 @@ categories: [
   miscellaneous
 ]
 tags: [
-  notes
+  unsorted, notes
 ]
 ---
 
