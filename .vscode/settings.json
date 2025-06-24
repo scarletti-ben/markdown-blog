@@ -26,5 +26,10 @@
   // Run tasks in macOS
   "terminal.integrated.profiles.osx": {
     "zsh": { "path": "/bin/zsh", "args": ["-l", "-i"] }
-  }
+  },
+  // Control where pasted images are placed
+  "markdown.copyFiles.destination": {
+  "**/*.md": "assets/img/${documentBaseName}/"
+  },
+  "markdown.copyFiles.overwriteBehavior": "nameIncrementally"
 }
