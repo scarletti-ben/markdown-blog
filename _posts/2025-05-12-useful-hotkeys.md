@@ -19,7 +19,8 @@ tags: [
 - `Windows + Shift + S` to open the clipping tool to screenshot a part of the screen
 - `Windows + A` to open action center / notification center
 - `Windows + P` to cycle through display options (for example if a second monitor is attached)
-- `Windows + {0-9}` open (or toggle visible) application on the taskbar iin that number position
+- `Windows + {0-9}` open (or toggle visible) application on the taskbar in that number position
+- `Windows + X` + `U` + `U` to shut down your PC
 
 # VSCode
 - `Alt + Shift + F` to run the formatter on code, fixing code indents and layout
