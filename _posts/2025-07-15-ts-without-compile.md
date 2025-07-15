@@ -77,3 +77,4 @@ The `jsconfig.json` file would be something like the code block below, where `"t
 
 # Miscellaneous
 - By default, `IntelliSense` searches in `node_modules/@types` for `.d.ts` files
+- You can likely find `.d.ts` files for `CDN` installations, so you can get type checking without the original `.js` file being in your local development environment
