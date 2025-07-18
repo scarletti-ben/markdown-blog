@@ -7,7 +7,7 @@ categories: [
   miscellaneous
 ]
 tags: [
-  coding, dev, webdev, javascript, typescript, .ts, .d.ts, type checking, typehints, type hinting, intellisense, vscode
+  coding, dev, webdev, javascript, typescript, .ts, .d.ts, global.d.ts, jsconfig, jsconfig.json, type checking, typehints, type hinting, intellisense, vscode
 ]
 ---
 
