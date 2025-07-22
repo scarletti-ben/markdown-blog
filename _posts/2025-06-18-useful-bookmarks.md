@@ -170,6 +170,10 @@ Below is a list of URLs to useful sites for `HTML` / `CSS` / `JavaScript` develo
 - [Logo Generator](https://looka.com/dashboard)
   - `AI` logo generator
   - Costs money to download but good for prototyping
+- [API Tester](https://reqbin.com/)
+  - Allows you to test `API` requests from within your browser
+  - Incredibly useful for testing your own `API` endpoints eg. serverless functions on `Vercel`
+  - Example would be a `GET` request to `https://scarletti-ben.vercel.app/api/test-proxy?url=https://www.example.com`
 
 # Useful Guides and Learning Resources
 - [CSS Flexbox Layout Guide](https://css-tricks.com/snippets/css/a-guide-to-flexbox)
