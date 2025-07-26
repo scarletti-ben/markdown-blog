@@ -174,6 +174,11 @@ Below is a list of URLs to useful sites for `HTML` / `CSS` / `JavaScript` develo
   - Allows you to test `API` requests from within your browser
   - Incredibly useful for testing your own `API` endpoints eg. serverless functions on `Vercel`
   - Example would be a `GET` request to `https://scarletti-ben.vercel.app/api/test-proxy?url=https://www.example.com`
+- [Google Takeout](https://takeout.google.com/)
+  - Allows you to download all your data for specific `Google` services
+  - Example, you can download all notes and images from `Google Keep`
+  - You can download all services at once, or pick and choose which
+  - POSTIT - You can also set to periodically create backups for you to download
 
 # Useful Guides and Learning Resources
 - [CSS Flexbox Layout Guide](https://css-tricks.com/snippets/css/a-guide-to-flexbox)
