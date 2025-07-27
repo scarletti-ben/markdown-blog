@@ -105,8 +105,8 @@ from .features import feature
 def feature() -> None:
     """Feature function to print information"""
     print("You have called function 'feature'")
-    print("Feature function accessible via package.core")
-    print("Feature function accessible via package.core.features")
+    print("This function is accessible via package.core")
+    print("This function is accessible via package.core.features")
 ```
 
 ## `tools/`
@@ -145,8 +145,8 @@ from package.core import feature
 def thing() -> None:
     """Thing function to print information"""
     print("You have called function 'thing'")
-    print("Thing function accessible via package.things")
-    print("Thing function accessible via package.things.thing")
+    print("This function is accessible via package.tools")
+    print("This function is accessible via package.tools.things")
     print("Preparing to call package.core.features.feature()\n")
     feature()
 ```
