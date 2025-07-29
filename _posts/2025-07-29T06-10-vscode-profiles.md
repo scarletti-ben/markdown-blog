@@ -12,6 +12,7 @@ tags: [
 ---
 
 # Miscellaneous
+- Add folder to workspace allows you to have different `.vscode` folders for each folder in the workspace, an example would be a folder of multiple `LOVE2D` games which each specify `"Lua.workspace.library": ["${workspaceFolder}/module/library"]` in their `.vscode/settings.json`, allowing them to share the workspace profile / settings but not interact with each other
 - Autosave is disabled
 - `Disable` vs `Disable (Worspace)`
 - Learn the `Python Environments` extension
@@ -28,6 +29,8 @@ tags: [
 - Save workspace as
 - Open workspace from file
 - New window with profile
+
+![alt text](assets/img/2025-07-29T06-10-vscode-profiles/image-10.png)
 
 - `Ctrl + Shift + F`
 - `Ctrl + Shift + H`
