@@ -149,7 +149,7 @@ import { initializeApp } from "firebase/app";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-    apiKey: "abc123",
+    apiKey: "...",
     authDomain: "mainframe-storage.firebaseapp.com",
     projectId: "mainframe-storage",
     storageBucket: "mainframe-storage.firebasestorage.app",
@@ -253,7 +253,7 @@ import { getAnalytics } from "firebase/analytics";
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-  apiKey: "AIzaSyAx5VIksX5JeW2hk5FDf_8rhyBa6CibH84",
+  apiKey: "...",
   authDomain: "mainframe-storage.firebaseapp.com",
   projectId: "mainframe-storage",
   storageBucket: "mainframe-storage.firebasestorage.app",
@@ -278,7 +278,7 @@ import { getAnalytics } from "firebase/analytics";
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-  apiKey: "AIzaSyAx5VIksX5JeW2hk5FDf_8rhyBa6CibH84",
+  apiKey: ".",
   authDomain: "mainframe-storage.firebaseapp.com",
   projectId: "mainframe-storage",
   storageBucket: "mainframe-storage.firebasestorage.app",
