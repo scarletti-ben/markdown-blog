@@ -400,3 +400,74 @@ Both services are offered by `Firebase`, they're both variants of a database sys
 - There is a design philosophy decision when picking between `users/` as the top level of the database and `apps/`. It can affect how easy some queries are to make, and make it easier or harder for users to access their data across different apps
     - You can also implement a hybrid approach with `users/` and `apps/` with some data existing in both
 - The way the `Firestore` database works means it goes collection/document/collection/document. Collections have documents, and documents have collections as well as fields. A collection can be thought of as a folder, a container that holds documents, it cannot hold data directly. The collections that are children of documents are "subcollections" of sorts
+
+# Example
+The simplest working example with next to no features can be seen below, just substitute the correct information into `firebaseConfig` and make sure you have a `.html` file that correctly loads a `script.js` file that mirrors the code block. You will notice that app name references are not in the demonstration as they're not entirely important most of the time, especially for demonstration purposes
+
+```javascript
+// < ======================================================
+// < Imports
+// < ======================================================
+
+import {
+    initializeApp
+} from "https://www.gstatic.com/firebasejs/12.2.1/firebase-app.js";
+
+import {
+    getAuth, 
+    GoogleAuthProvider,
+    signInWithPopup
+} from "https://www.gstatic.com/firebasejs/12.2.1/firebase-auth.js";
+
+import {
+    getFirestore
+} from "https://www.gstatic.com/firebasejs/12.2.1/firebase-firestore.js";
+
+// < ======================================================
+// < Declarations
+// < ======================================================
+
+/**
+ * Firebase configuration object, abridged for this demo
+ * 
+ * @type {Object}
+ * @property {string} apiKey - Firebase API key
+ * @property {string} authDomain - Domain for Firebase Authentication
+ * @property {string} projectId - Unique identifier for the Firebase project
+ */
+const firebaseConfig = {
+    apiKey: "...",
+    authDomain: "project-name.firebaseapp.com",
+    projectId: "project-name"
+};
+
+// ~ ======================================================
+// ~ Entry Point
+// ~ ======================================================
+
+// ? Run callback when all resources have loaded
+window.addEventListener('load', async () => {
+
+    // Initialise Firebase
+    const app = initializeApp(firebaseConfig);
+
+    // Get Firebase Authentication instance for the user
+    const auth = getAuth(app);
+
+    // Get Firestore database instance for the project
+    const database = getFirestore(app);
+
+    // Create Google OAuth 2.0 provider instance 
+    const provider = new GoogleAuthProvider();
+
+    // Attempt to log user in via the authentication provider
+    try {
+        const result = await signInWithPopup(auth, provider);
+        const user = result.user;
+        console.log('Signed in as:', user.email);
+    } catch (error) {
+        console.error('Sign-in error:', error);
+    }
+
+});
+```
