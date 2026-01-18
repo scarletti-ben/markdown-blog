@@ -123,6 +123,7 @@ The `[ ]` and `< >` denote different states for cards on top of the pile
 - Does a four-in-a-row only count if all four are played in one go?
     - No, a four-in-a-row can be contributed to by any number of players, and doesn't need to be one single play of a four-of-a-kind
 - How does 7 work with a four-in-a-row?
+    - 7s do not stop a four-in-a-row, this means that a pile of [3, 4, 7, 7, 4, 4, 7, 4] would burn as the same as four 4s directly next to each other
 
 ## Recap
 - On your turn you can decide to play any number of a single rank of card that is playable, see [card reference guide](#card-reference-guide)
