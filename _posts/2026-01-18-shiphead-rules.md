@@ -108,7 +108,7 @@ The `[ ]` and `< >` denote different states for cards on top of the pile
     - Treat it as if there were no cards, any card can be played
 - Can I play multiple cards at once from my face-up cards?
     - Yes, you can play any number of the same valid rank, same as if playing from hand
-- Can I combine cards from my hand with my face-down cards and play them at the same time?
+- Can I combine cards from my hand with my face-up cards and play them at the same time?
     - No, not even if the last card in your hand is a 5, and you have a 5 in your face-up cards, you cannot play both 5s on the same turn
 - Can I play multiple face-down cards at the same time?
     - No
