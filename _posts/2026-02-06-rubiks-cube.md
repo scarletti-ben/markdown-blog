@@ -5,7 +5,7 @@ categories: [
   miscellaneous
 ]
 tags: [
-  rubik's cube, rubiks cube, cubing, 3x3 cube, cube algorithms, beginner's method
+  rubik's cube, rubiks cube, cubing, 3x3 cube, cube algorithms, beginner's method, cheat sheet
 ]
 ---
 
