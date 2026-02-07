@@ -47,6 +47,24 @@ An example of chaining algorithms to solve a corner that has white on `U` can be
 # Middle Layer
 I cannot be bothered to make notes on this right now as it hasn't fallen out of my brain yet. Hopefully I will remember to make the notes it does.
 
+<!-- POSTIT -->
+FIX THIS BIT LATER
+
+- `U R U R' U' F' U' F`
+- `U' L' U' L U F U F'`
+
+An incredibly messy full solve can be found [here](https://alg.cubing.net/?title=Full%20Solve&setup=x2_y_m2_f2_R_L-_m_d_R_U2_F2_L_F_z-&alg=F-_y-_F2_y-_F2_U2_R-_U-_F2_y-_F2_y-_U-_F2_y-_U2_F2_R_U_R-_y-_R_U2_R-_U-_R_U_R-_y-_R_U2_R-_y-_R_U_R-_y_U2_y_L-_U-_L_y2_U2_U_R_U_R-_U-_F-_U-_F_y-_U_U_R_U_R-_U-_F-_U-_F_U2_U-_L-_U-_L_U_F_U_F-_y2_U_R_U_R-_U-_F-_U-_F_y_F_U_R_U-_R-_F-_y2_F_U_R_U-_R-_F-_y2_F_U_R_U-_R-_F-_y2_R_U_R-_U_R_U2_R-_R_U_R-_U_R_U2_R-_R_U_R-_U_R_U2_R-_U-_L-_U_R_U-_L_U2_R-_U_R_U2_R-_U_d_F2_U-_R-_L_F2_R_L-_U-_F2) I made it using as few algorithms as possible, and there's quite a few cube orientation changes as I was looking around the cube for the pieces I needed. It is not meant to teach anyone how to solve anything other than that exact cube layout, but shows off all the steps as a reminder to myself
+
+You can add comments as below
+```
+y x' // inspection
+U R2 U' F' L F' U' L' // XX-Cross + EO
+U' R U R' // 3rd slot
+R' U R U2' R' U R // 4th slot
+U R' U' R U' R' U2 R // OLL / ZBLL
+U // AUF
+```
+
 # Last Layer - Creating the Yellow Cross
 You are completely ignoring the yellow corner pieces for now and are looking for one of the situations below
 - a solid line

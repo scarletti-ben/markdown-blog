@@ -127,7 +127,7 @@ The `[ ]` and `< >` denote different states for cards on top of the pile
 
 ## Recap
 - On your turn you can decide to play any number of a single rank of card that is playable, see [card reference guide](#card-reference-guide)
-- If you cannot play, and there is not a special rule in play such as "eight-or-wait", then you must pick up the central pile and end your turn
+- If you cannot play, and there is not a special rule in play such as "eight-or-wait", then you must pick up the pile and end your turn
 - If you played cards from your hand and there are cards left in the deck, then you must draw back to 5 cards
 - Once you have finished your turn, the game moves onto the next player
 - If, on your turn, you complete a "four-in-a-row", where there are four of a single card rank in a row on top of the pile, the pile is burned and you take another turn
