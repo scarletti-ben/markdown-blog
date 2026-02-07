@@ -17,8 +17,35 @@ When I went back to find the algorithms for the "beginners method" I found that 
 # Helpful Sites
 The site that is most useful for me to use for these notes is [alg.cubing.net](https://alg.cubing.net/). It allows you to setup the cube in any way you wish and create an animation for different algorithms. You can either play the animation, or move through it one move at a time
 
-# First Two Layers
-I cannot be bothered to make notes on these right now as they haven't fallen out of my brain yet. Hopefully I will remember to make the notes before they do.
+# First Layer - Making the Daisy
+During the solve you want the white face on `D` and the yellow face on `U`. The daisy is when you have a yellow center with white edge pieces, the orientation of them doesn't matter much and you shouldn't need any specific algorithms, it should be intuitive.
+
+You can see a basic example of making the daisy [here](https://alg.cubing.net/?setup=x2_R2_F_L_F2_R2_B_R&alg=R_F-_L_B-_L). The example isn't an algorithm to remember, just shows general intuitive moves and what you're aiming for at the end
+
+# First Layer - Moving the Daisy
+Once you have all the white edge pieces of the daisy you can start moving them down to the white face on `D`. The easiest way is to line up an edge piece so that its non-white colour is touching its matching center on the `F` face. Then use the algorithm `F2` to move it down to the white face. Do this same orientation and spin with each of the edge pieces until you have them all in the right place
+
+You can see a basic example of moving the daisy [here](https://alg.cubing.net/?setup=x2_R2_F_L_F2_R2_B_R_R_F-_L_B-_L&alg=U2_F2_y_U2_F2_y2_F2_y-_U2_F2_x2_y_y_y_y). Again it's not really "algorithm" based, it's more done by eye
+
+# First Layer - Solving the White Corners
+If you have all the white edge pieces in the right place you can search for white corners around the cube. If you have a white corner on `D` that is in the wrong place, orient it so that it is in the bottom right corner of the `F` face and use the algorithm `R U R'`. You can also orient it so that it is in the bottom left corner of the `F` face and use the algorithm `L' U' L`. The two algorithms are also used to bring the correct corners into the right places.
+
+If you want to bring a correct corner down on the right hand side you want to orient so that the center colour matches the part of the corner on `F` and the white part of the piece is on `R`, the colour on `U` does not matter. If you use `R U R'` it should bring the corner into the correct place on `D`
+
+If you want to bring a correct corner down on the left hand side you want to orient so that the center colour matches the part of the corner on `F` and the white part of the piece is on `L`, the colour on `U` does not matter. If you use `L' U' L` it should bring the corner into the correct place on `D`
+
+Sometimes you will have corners where the white piece is on `U`, I usually just fix this with `R U2 R'` or `L' U2 L` to move the white corner but it should be mostly intuitive
+
+An example of using `R U R'` to solve a corner can be seen [here](https://alg.cubing.net/?setup=x2_R2_F_L_F2_R2_B_R_R_F-_L_B-_L_U2_F2_y_U2_F2_y2_F2_y-_U2_F2_y_U-&alg=R_U_R-)
+
+An example of using `L' U' L` to solve a corner can be seen [here](https://alg.cubing.net/?setup=x2_R2_F_L_F2_R2_B_R_R_F-_L_B-_L_U2_F2_y_U2_F2_y2_F2_y-_U2_F2_U2&alg=L-_U-_L&view=playback)
+
+An example of using `R U R'` to reorient a corner that has white on `U` can be seen [here](https://alg.cubing.net/?setup=x2_R2_F_L_F2_R2_B_R_R_F-_L_B-_L_U2_F2_y_U2_F2_y2_F2_y-_U2_F2_y-&view=playback&alg=R_U2_R-)
+
+An example of chaining algorithms to solve a corner that has white on `U` can be seen [here](https://alg.cubing.net/?setup=x2_R2_F_L_F2_R2_B_R_R_F-_L_B-_L_U2_F2_y_U2_F2_y2_F2_y-_U2_F2_y-&view=playback&alg=R_U2_R-_U-_R_U_R-). The combined algorithm is `R U2 R' U' R U R'`
+
+# Middle Layer
+I cannot be bothered to make notes on this right now as it hasn't fallen out of my brain yet. Hopefully I will remember to make the notes it does.
 
 # Last Layer - Creating the Yellow Cross
 You are completely ignoring the yellow corner pieces for now and are looking for one of the situations below
@@ -60,6 +87,12 @@ If all your corners are paired you can skip this step. If you have one pair of c
 Once you have all the correct corner pairs you will likely have either 1 or 0 fully correct faces on the cube (`L`, `F`, `R` or `B`). The algorithm is `F2 U' R' L F2 R L' U' F2`. This algorithm cycles the middle pieces, so if you have no correct face orientation doesn't matter, but if you have 1 then you want to keep it on `B` before performing the algorithm. The example for when you have one completed face is [here](https://alg.cubing.net/?setup=z2_y2&type=alg&alg=F2_U-_R-_L_F2_R_L-_U-_F2&title=top%20layer%20middle%20-%20%0Amoving%20piece%20in%20from%20the%20Left)
 
 Technically, `F2 U' R' L F2 R L' U' F2` actually cycles one way and `F2 U R' L F2 R L' U F2` cycles the other but I'd say just learn one and use it multiple times
+
+# Algorithms
+- `R U R'` and `L' U' L`
+- `R U R' U R U2 R'` best split into `R U R'` + `U R U2 R'`
+- `L' U R U' L U2 R' U R U2 R'`
+- `F2 U' R' L F2 R L' U' F2`
 
 # Miscellaneous
 - https://www.speedsolving.com/wiki/index.php?title=Layer_by_layer
