@@ -27,7 +27,7 @@ A number signifies doing the move multiple times in a row, eg. `U2` would be the
 - `L` turns the left layer clockwise, which is towards you
 - `R` turns the right layer clockwise, which is away from you
 - `U` turns the top layer clockwise
-- `D` turns the bottom layer clockwise
+- `D` turns the down (bottom) layer clockwise
 - `F` turns the front layer clockwise
 - `B` turns the back layer clockwise
 
@@ -38,7 +38,7 @@ A number signifies doing the move multiple times in a row, eg. `U2` would be the
 - `l` turns the left two layers clockwise
 - `r` turns the right two layers clockwise
 - `u` turns the top two layers clockwise
-- `d` turns the bottom two layers clockwise
+- `d` turns the down (bottom) two layers clockwise
 - `f` turns the front two layers clockwise
 - `b` turns the back two layers clockwise
 
