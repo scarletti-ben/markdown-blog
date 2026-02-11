@@ -54,7 +54,7 @@ During the solve you want the white face on `D` and the yellow face on `U`. The 
 You can see a basic example of making the daisy [here](https://alg.cubing.net/?setup=x2_R2_F_L_F2_R2_B_R&alg=R_F-_L_B-_L). The example isn't an algorithm to remember, just shows general intuitive moves and what you're aiming for at the end
 
 # First Layer - Moving the Daisy
-Once you have all the white edge pieces of the daisy you can start moving them down to the white face on `D`. The easiest way is to line up an edge piece so that its non-white colour is touching its matching centre on the `F` face. Then use the algorithm `F2` to move it down to the white face. Do this same orientation and spin with each of the edge pieces until you have them all in the right place
+Once you have all the white edge pieces of the daisy you can start moving them down to the white face on `D`. The easiest way is to line up an edge piece so that its non-white sticker is touching its matching centre on the `F` face. Then use the algorithm `F2` to move it down to the white face. Do this same orientation and spin with each of the edge pieces until you have them all in the right place
 
 You can see a basic example of moving the daisy [here](https://alg.cubing.net/?setup=x2_R2_F_L_F2_R2_B_R_R_F-_L_B-_L&alg=U2_F2_y_U2_F2_y2_F2_y-_U2_F2_x2_y_y_y_y). Again it's not really "algorithm" based, it's more done by eye
 
@@ -65,7 +65,7 @@ If you want to bring a correct corner down on the right hand side you want to or
 
 If you want to bring a correct corner down on the left hand side you want to orient so that the centre colour matches the part of the corner on `F` and the white part of the piece is on `L`, the colour on `U` does not matter. If you use `L' U' L` it should bring the corner into the correct place on `D`
 
-Sometimes you will have corners where the white sticker is on `U`, I usually just fix this with `R U2 R'` or `L' U2 L` to move the white corner but it should be mostly intuitive
+Sometimes you will have corners where the white sticker is on `U`, I usually just fix this with `R U2 R'` or `L' U2 L` to move the white corner
 
 An example of using `R U R'` to solve a corner can be seen [here](https://alg.cubing.net/?setup=x2_R2_F_L_F2_R2_B_R_R_F-_L_B-_L_U2_F2_y_U2_F2_y2_F2_y-_U2_F2_y_U-&alg=R_U_R-)
 
@@ -78,14 +78,13 @@ An example of chaining algorithms to solve a corner that has white on `U` can be
 # Middle Layer - Solving the Middle Layer
 When solving the middle layer you are looking for middle pieces that have two non-yellow stickers, where one of the stickers is on the `U` face and touches the yellow centre. Once you find a valid piece, orient it so that one of the stickers touches its matching centre on the `F` face. You now need to note the colour of the sticker on the `U` face. If that sticker matches the centre of the `R` face use `U R U R' U' F' U' F`. If that sticker matches the centre of the `L` face use `U' L' U' L U F U F'`
 - `U R U R' U' F' U' F` if top colour matches right face centre
-  - This moves the piece clockwise, with one sticker on `F` and one sticker on `R`
+  - This moves the piece clockwise, finishing with one sticker on `F` and one sticker on `R`
 - `U' L' U' L U F U F'` if top colour matches left face centre
-  - This moves the piece ant-clockwise, with one sticker on `F` and one sticker on `L`
+  - This moves the piece ant-clockwise, finishing with one sticker on `F` and one sticker on `L`
 
 If you have not solved the middle layer and all middle pieces that touch `U` have a yellow sticker, then you may need to apply the algorithms above to "dislodge" a middle piece that is in the wrong place
 
 You can see an example of the algorithms being used [here](https://alg.cubing.net/?setup=z2_F_U_R_U-_R-_F-_F_U_R_U-_R-_F-_U_R_U_R-_U-_F-_U-_F_y2__y_U_U-_L-_U-_L_U_F_U_F-_y_U_R_U_R-_U-_F-_U-_F&title=Solving%20the%20Middle%20Layer&alg=d2_U_R_U_R-_U-_F-_U-_F_y-_U-_L-_U-_L_U_F_U_F-_U2_U-_L-_U-_L_U_F_U_F-)
-
 
 # Last Layer - Making the Yellow Cross
 You are completely ignoring the yellow corner pieces for now and are looking for one of the situations below
@@ -108,7 +107,7 @@ Y Y Y
 ```
 
 # Last Layer - Making the Yellow Fishy
-Once you have a yellow cross you are next trying to make a yellow fishy. Not everyone calls it that but I like it. It's essentially the yellow cross with a single yellow corner and looks slightly like a fish shape. The algorithm to get the yellow fishy is `R U R' U R U2 R'`, and you need to apply it when there is anything other than exactly 1 yellow corner. The orientation you need is a corner piece with yellow on `L` and the attached colour on `F`. If you end up with any number other than exactly 1 yellow corner you will need to reorient and apply the algorithm again. You can view an example [here](https://alg.cubing.net/?setup=x2_R_U2_R-_U-_R_U_R-_U-_R_U-_R-&alg=R_U_R-_U_R_U2_R-&title=CROSS%20TO%20FISHY)
+Once you have a yellow cross you are next trying to make a yellow fishy. Not everyone calls it that but I like it. It's essentially the yellow cross with a single yellow corner and looks slightly like a fish shape. The algorithm to get the yellow fishy is `R U R' U R U2 R'`, and you need to apply it when there is anything other than exactly one yellow corner. The orientation you need is a corner piece with yellow on `L` and the attached colour on `F`. If you end up with any number other than exactly one yellow corner you will need to reorient and apply the algorithm again. You can view an example [here](https://alg.cubing.net/?setup=x2_R_U2_R-_U-_R_U_R-_U-_R_U-_R-&alg=R_U_R-_U_R_U2_R-&title=CROSS%20TO%20FISHY)
 
 A text diagram of the yellow fishy
 ```text
@@ -124,7 +123,7 @@ With a yellow cross, and exactly one yellow corner, on the top face. Align the y
 If all your corners are paired you can skip this step. If you have one pair of corners align it so they are matching their centre colour and place them on the `L` side of the cube, if you have no corner pairs then alignment doesn't matter. The algorithm used here is `L' U R U' L U2 R' U R U2 R'`, and you may need to repeat it, making sure you align your new corner pairs correctly. You can see an example [here](https://alg.cubing.net/?setup=z2_y2_L-_U_R_U-_L_U2_R-_U_R_U2_R-_y2_L-_U_R_U-_L_U2_R-_U_R_U2_R-&title=3x3x3%20Corner%20Swap%20with%20no%20pairs&alg=L-_U_R_U-_L_U2_R-_U_R_U2_R-)
 
 # Last Layer - Cycle Top Middle Pieces
-Once you have all the correct corner pairs you will likely have either 1 or 0 fully correct faces on the cube (`L`, `F`, `R` or `B`). The algorithm is `F2 U' R' L F2 R L' U' F2`. This algorithm cycles the middle pieces, so if you have no correct face orientation doesn't matter, but if you have 1 then you want to keep it on `B` before performing the algorithm. The example for when you have one completed face is [here](https://alg.cubing.net/?setup=z2_y2&type=alg&alg=F2_U-_R-_L_F2_R_L-_U-_F2&title=top%20layer%20middle%20-%20%0Amoving%20piece%20in%20from%20the%20Left)
+Once you have all the correct corner pairs you will likely have either one or no fully correct faces on the cube (`L`, `F`, `R`, `B`). The algorithm is `F2 U' R' L F2 R L' U' F2`. This algorithm cycles the middle pieces, so if you have no correct face orientation doesn't matter, but if you have one then you want to keep it on `B` before performing the algorithm. The example for when you have one completed face is [here](https://alg.cubing.net/?setup=z2_y2&type=alg&alg=F2_U-_R-_L_F2_R_L-_U-_F2&title=top%20layer%20middle%20-%20%0Amoving%20piece%20in%20from%20the%20Left)
 
 Technically, `F2 U' R' L F2 R L' U' F2` actually cycles one way and `F2 U R' L F2 R L' U F2` cycles the other but I'd say just learn one and use it multiple times
 
