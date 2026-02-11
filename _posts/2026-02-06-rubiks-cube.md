@@ -20,6 +20,10 @@ The site that is most useful for me to use for these notes is [alg.cubing.net](h
 # Cube Notation
 All mentions of clockwise are if you were looking at them head-on, an example would be that a clockwise `B` move looks anti-clockwise if you are doing it while looking at the `F` face, but would look clockwise if looking at the `B` face head-on
 
+A hypthen `'` signifies doing the move in reverse, or anti-clockwise. An example would be `R'` which would move the `R` face towards you. It is usually called "dash" or "prime" eg. "R-dash" or "R-prime"
+
+A number signifies doing the move multiple times in a row, eg. `U2` would be the same as `U U`
+
 - `L` turns the left layer clockwise, which is towards you
 - `R` turns the right layer clockwise, which is away from you
 - `U` turns the top layer clockwise
@@ -42,7 +46,7 @@ All mentions of clockwise are if you were looking at them head-on, an example wo
 - `E` turns the middle layer between `U` and `D`
 - `S` turns the middle layer between `F` and `B`
 
-You can see all the moves [here](https://alg.cubing.net/?alg=L_R_U_D_F_B%0AB-_F-_D-_U-_R-_L-%0A%0Ax_y_z%0Az-_y-_x-%0A%0Al_r_u_d_f_b%0Ab-_f-_d-_u-_r-_l-%0A%0AM_E_S%0AS-_E-_M-&title=Cube%20Notation)
+You can see all the moves [here](https://alg.cubing.net/?alg=L_R_U_D_F_B%0AB-_F-_D-_U-_R-_L-%0A%0Ax_y_z%0Az-_y-_x-%0A%0Al_r_u_d_f_b%0Ab-_f-_d-_u-_r-_l-%0A%0AM_E_S%0AS-_E-_M-%0A%0AU2_R2_F2%0AF2_R2_U2&title=Cube%20Notation)
 
 # First Layer - Making the Daisy
 During the solve you want the white face on `D` and the yellow face on `U`. The daisy is when you have a yellow centre with white edge pieces, the orientation of them doesn't matter much and you shouldn't need any specific algorithms, it should be intuitive.
